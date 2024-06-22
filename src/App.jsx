@@ -5,10 +5,12 @@ import Tasks from './components/tasks/Tasks';
 import Home from './components/home/Home';
 import Goals from './components/goals/Goals';
 import Loginform from './components/login/Loginform';
-const App=(()=>{
-  return(
+import '@mantine/core/styles.css';
+import { MantineProvider} from '@mantine/core';
+
+export default function App() {
+  return <MantineProvider>{
     <section>
-      
       <BrowserRouter>
       <Navbar1/>
       <Routes>
@@ -19,6 +21,5 @@ const App=(()=>{
       </Routes>
       </BrowserRouter>
     </section>
-  )
-})
-export default App;
+    }</MantineProvider>;
+}

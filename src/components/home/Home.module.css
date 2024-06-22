@@ -4,5 +4,13 @@
     background-image: url(../../assets/sec1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1>h1{
+    font-size: 300px;
+    color:#01d4df;
+    
 }

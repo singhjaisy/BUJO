@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section>
       <section className={homecss.sec1}>
-          
+          <h1>BUJO</h1>
       </section>
     </section>
   )
