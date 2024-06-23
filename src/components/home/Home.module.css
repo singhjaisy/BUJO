@@ -1,0 +1,50 @@
+.sec1{
+    width: 100vw;
+    height: 240px;
+    /* background-image: url(../../assets/sec1.jpg); */
+    background-color: lavender;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.sec1>h1{
+    font-size: 200px;
+    color:black;
+    overflow-y: hidden;
+}
+
+.sec2{
+    width: 100vw;
+    height: 350px;
+    background-color: lavenderblush;
+    position: relative;
+    
+}
+.sec2>h1{
+    padding-top: 100px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.sec2>.sec2btn{
+    border-radius: 5px;
+    padding:  5px 10px;
+    position: absolute;
+    left: 46%;
+    text-transform: uppercase;
+    margin-top: 80px;
+    background-color: white;
+}
+.sec2>.sec2btn>a{
+    text-decoration: none;
+    color: inherit;
+}
+.sec2>.sec2btn:hover{
+    background-color:black;
+    color: white;
+}
+
