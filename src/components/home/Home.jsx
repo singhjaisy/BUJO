@@ -15,40 +15,34 @@ const Home = () => {
         </button>
       </section>
       <section className={homecss.sec3}>
-      <Card style={{ width: '18rem' }}>
+      <Card className={homecss.cardcontainer} style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
+        <Card.Title className="p-4  d-flex justify-content-center align-items-center"><ion-icon size="large" name="chevron-back-outline"></ion-icon></Card.Title>
+        <Card.Subtitle className="mb-2 p-1 text-muted text-uppercase text-center">Track the past</Card.Subtitle>
+        <Card.Text className="text-justify">
+        Learn how to quickly create a record of your life that will help discover personal patterns and trends. Clearly see what is and what isn't working so that you can shed distractions and focus on what matters.
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+    <Card className={homecss.cardcontainer} style={{ width: '18rem' }}>
+      <Card.Body className="">
+        <Card.Title className="p-5 d-flex ustify-content-center align-items-center">
+        <ion-icon size="large" name="chevron-down-outline"></ion-icon>
+        </Card.Title>
+        <Card.Subtitle className="mb-2 p-1 text-muted text-uppercase text-center">Card Subtitle</Card.Subtitle>
+        <Card.Text className="text-justify">
+        Easily organize your tasks, thoughts, and even your feelings. Learn a simple, flexible framework that helps you stay focused, productive, clear, and present.
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card className={homecss.cardcontainer} style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Title className="p-3">Card Title</Card.Title>
+        <Card.Subtitle className="mb-2 p-1 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Get the tools to set clear goals and create actionable plans, helping you turn your ideas into reality. Learn how to achieve the future you envision for tomorrow by living intentionally today.
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
       </section>
