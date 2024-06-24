@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section>
       <section className={homecss.sec1}>
-        <h1>BUJO</h1>
+        <h1>BUJi</h1>
       </section>
       <section className={homecss.sec2}>
         <h1>start adding tasks</h1>
