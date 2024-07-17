@@ -2,11 +2,13 @@ import React from "react";
 import homecss from "../home/Home.module.css";
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
+import Footerhome from "./Footerhome";
 const Home = () => {
   return (
     <section>
       <section className={homecss.sec1}>
         <h1>BUJO</h1>
+        <p className="">a productivity tool that helps you manage your tasks, track your progress, and achieve your goals. Stay organized and stay focused.</p>
       </section>
       <section className={homecss.sec2}>
         <h1>start adding tasks</h1>
@@ -48,7 +50,6 @@ const Home = () => {
       </Card.Body>
     </Card>
       </section>
-      <footer> </footer>
     </section>
   );
 };

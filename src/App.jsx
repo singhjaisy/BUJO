@@ -7,6 +7,7 @@ import Goals from './components/goals/Goals';
 import Loginform from './components/login/Loginform';
 import '@mantine/core/styles.css';
 import { MantineProvider} from '@mantine/core';
+import Footerhome from './components/home/Footerhome';
 
 export default function App() {
   return <MantineProvider>{
@@ -19,6 +20,7 @@ export default function App() {
         <Route path='/components/Goals' element={<Goals/>}/>
         <Route path='/Login' element={<Loginform/>  }/>
       </Routes>
+      <Footerhome/>
       </BrowserRouter>
     </section>
     }</MantineProvider>;
